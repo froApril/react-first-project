@@ -5,7 +5,7 @@ import { Switch } from "@chakra-ui/switch";
 const ColorModeSwitch = () => {
   const { toggleColorMode, colorMode } = useColorMode();
   return (
-    <HStack>
+    <HStack width={40}>
       <Switch
         colorScheme="green"
         isChecked={colorMode === "dark"}
